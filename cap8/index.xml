@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>. on Fundamentos de Macroeconomía</title>
+    <title>Modelo IS-LM (Parte II) on Fundamentos de Macroeconomía</title>
     <link>http://www.luischanci.com/cap8/</link>
-    <description>Recent content in . on Fundamentos de Macroeconomía</description>
+    <description>Recent content in Modelo IS-LM (Parte II) on Fundamentos de Macroeconomía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 16 Feb 2021 22:40:36 -0300</lastBuildDate>
     
 	<atom:link href="http://www.luischanci.com/cap8/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Semana 8</title>
+      <link>http://www.luischanci.com/cap8/ap8/</link>
+      <pubDate>Tue, 16 Feb 2021 22:40:36 -0300</pubDate>
+      
+      <guid>http://www.luischanci.com/cap8/ap8/</guid>
+      <description>Actividad de Aprendizaje No 8 Instrucciones: Enviar sus respuestas en formato PDF vía Aula Virtual.
+(Actividad No Disponible Aún)</description>
+    </item>
     
   </channel>
 </rss>
