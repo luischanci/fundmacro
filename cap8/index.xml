@@ -6,21 +6,9 @@
     <description>Recent content in Modelo IS-LM (Parte II) on Fundamentos de Macroeconomía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Feb 2021 22:40:36 -0300</lastBuildDate>
     
 	<atom:link href="http://www.luischanci.com/cap8/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Semana 8</title>
-      <link>http://www.luischanci.com/cap8/ap8/</link>
-      <pubDate>Tue, 16 Feb 2021 22:40:36 -0300</pubDate>
-      
-      <guid>http://www.luischanci.com/cap8/ap8/</guid>
-      <description>Actividad de Aprendizaje No 8 Instrucciones: Enviar sus respuestas en formato PDF vía Aula Virtual.
-1. Práctica: IS-LM y la política fiscal. Sea una economía cerrada, con la siguiente información: $$C=120+0,6·(Y-\bar{T})$$ $$I=0,2⋅Y-5⋅r$$ $$\bar{G}=150$$ $$\bar{T}=100$$ $$(\bar{M}/P)^s=500$$ $$M^d=Y-50·i$$ $$P=1 ; π^e=0$$
- Encontrar la tasa de interés (i) y la renta (Y) de equilibrio. El gasto de gobierno aumenta en 50 unidades adicionales (%$\Delta^{+}\bar{G}=50$%). Encontrar la nueva tasa de interés (i) y la renta (Y) de equilibrio.</description>
-    </item>
     
   </channel>
 </rss>
