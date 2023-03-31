@@ -2,14 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.luischanci.com/cap1/ap1/index.html</loc>
+    <lastmod>2023-02-16T22:40:36-03:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.luischanci.com/cap2/ap2/index.html</loc>
     <lastmod>2021-02-16T22:40:36-03:00</lastmod>
   </url>
   <url>
     <loc>http://www.luischanci.com/cap1/index.html</loc>
-    <lastmod>2021-02-16T22:40:36-03:00</lastmod>
+    <lastmod>2023-02-16T22:40:36-03:00</lastmod>
   </url>
   <url>
     <loc>http://www.luischanci.com/cap2/index.html</loc>
+    <lastmod>2021-02-16T22:40:36-03:00</lastmod>
   </url>
   <url>
     <loc>http://www.luischanci.com/cap3/index.html</loc>
@@ -31,7 +36,7 @@
   </url>
   <url>
     <loc>http://www.luischanci.com/index.html</loc>
-    <lastmod>2021-02-16T22:40:36-03:00</lastmod>
+    <lastmod>2023-02-16T22:40:36-03:00</lastmod>
   </url>
   <url>
     <loc>http://www.luischanci.com/categories/index.html</loc>
