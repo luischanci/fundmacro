@@ -1,632 +1,128 @@
 <!DOCTYPE html>
-<html lang="es" class="js csstransforms3d">
+<html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Relearn 5.10.2+tip">
     <meta name="description" content="Curso introductorio de macroeconomía">
-<meta name="author" content="Luis Chancí">
-
-    <link rel="icon" href="/images/favicon.png" type="image/png">
-
-    <title>Semana 4 - Fundamentos de Macroeconomía</title>
-
-    
-    <link href="/css/nucleus.css?1624425032" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1624425032" rel="stylesheet">
-    <link href="/css/hybrid.css?1624425032" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1624425032" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1624425032" rel="stylesheet">
-    <link href="/css/auto-complete.css?1624425032" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1624425032" rel="stylesheet">
-    <link href="/css/theme.css?1624425032" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1624425032" rel="stylesheet">
-    
-    <link href="/css/theme-green.css?1624425032" rel="stylesheet">
-    
-    <link href="/css/theme-mycss.css?1624425032" rel="stylesheet"><link href="/css/custom-header.css?1624425032" rel="stylesheet">
-
-    <script src="/js/jquery-3.3.1.min.js?1624425032"></script>
-
-    <style>
-      :root #header + #content > #left > #rlblock_left{
-          display:none !important;
-      }
-      
-    </style>
-    
+    <meta name="author" content="Luis Chancí">
+    <title>Inversión - Fundamentos de Macroeconomía</title>
+    <link href="/cap4/ap4/index.xml" rel="alternate" type="application/rss+xml" title="Inversión - Fundamentos de Macroeconomía">
+    <link href="/cap4/ap4/index.print.html" rel="alternate" type="text/html" title="Inversión - Fundamentos de Macroeconomía">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1684778258" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1684778258" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1684778258" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1684778258" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1684778258" rel="stylesheet">
+    <link href="/css/nucleus.css?1684778258" rel="stylesheet">
+    <link href="/css/fonts.css?1684778258" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1684778258" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1684778258" rel="stylesheet">
+    <link href="/css/theme-green.css?1684778258" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1684778258" rel="stylesheet">
+    <link href="/css/variant.css?1684778258" rel="stylesheet">
+    <link href="/css/print.css?1684778258" rel="stylesheet" media="print">
+    <script src="/js/url.js?1684778258"></script>
+    <script src="/js/variant.js?1684778258"></script>
     <script>
-  MathJax = {
-    tex: {
-      inlineMath: [['%$', '$%'], ['\\(', '\\)']],
-      displayMath: [['$$','$$'], ['\\[', '\\]']],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-    }
-  };
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copiar en el portapapeles';
+      window.T_Copied_to_clipboard = '¡Copiado al portapapeles!';
+      window.T_Copy_link_to_clipboard = 'Copiar enlace al portapapeles';
+      window.T_Link_copied_to_clipboard = '¡Enlace copiado al portapapeles!';
+      window.T_No_results_found = 'No se han encontrado resultados para \u0022{0}\u0022';
+      window.T_N_results_found = '{1} resultados encontrados para \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='http:\/\/www.luischanci.com/';
+      window.variants && variants.init( [ 'green' ] );
+    </script>
+    <script src="/js/jquery.min.js?1684778258" defer></script>
 
-  window.addEventListener('load', (event) => {
-      document.querySelectorAll("mjx-container").forEach(function(x){
-        x.parentElement.classList += 'has-jax'})
-    });
-
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PK9F28LTP"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-1PK9F28LTP', { 'anonymize_ip': false });
+}
 </script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-1PK9F28LTP', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
   </head>
-  <body class="" data-url="/cap4/ap4/">
-    <nav id="sidebar" class="">
-
-
-
-  <div id="header-wrapper">
-    <div id="header">
-      <a id="logo" href='/'>
-	<img src="/images/macrov22.png">
-</a>
-
-    </div>
-    
-        <div class="searchbox">
-    <label for="search-by"><i class="fas fa-search"></i></label>
-    <input data-search-input id="search-by" type="search" placeholder="Buscar...">
-    <span data-search-clear=""><i class="fas fa-times"></i></span>
-</div>
-
-<script type="text/javascript" src="/js/lunr.min.js?1624425032"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1624425032"></script>
-<script type="text/javascript">
-    
-        var baseurl = "http:\/\/www.luischanci.com\/";
-    
-</script>
-<script type="text/javascript" src="/js/search.js?1624425032"></script>
-
-    
-  </div>
-  
-    <section id="homelinks">
-      <ul>
-        <li>
-            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
-        </li>
-      </ul>
-    </section>
-  
-
-    <div class="highlightable">
-    <ul class="topics">
-
-        
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/cap1/" title="Introducción" class="dd-item
-        
-        
-        
-        ">
-      <a href="/cap1/">
-          <b>1. </b>Introducción
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/cap1/ap1/" title="Semana 1" class="dd-item ">
-        <a href="/cap1/ap1/">
-        A.P. No 1  
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-      
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/cap2/" title="Cuentas Nacionales" class="dd-item
-        
-        
-        
-        ">
-      <a href="/cap2/">
-          <b>2. </b>Cuentas Nacionales
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/cap2/ap2/" title="Semana 2" class="dd-item ">
-        <a href="/cap2/ap2/">
-        A.P. No 2  
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-      
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/cap3/" title="Consumo" class="dd-item
-        
-        
-        
-        ">
-      <a href="/cap3/">
-          <b>3. </b>Consumo
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/cap3/ap3/" title="Semana 3" class="dd-item ">
-        <a href="/cap3/ap3/">
-        A.P. No 3 
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-      
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/cap4/" title="Inversión" class="dd-item
-        parent
-        
-        
-        ">
-      <a href="/cap4/">
-          <b>4. </b>Inversión
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/cap4/ap4/" title="Semana 4" class="dd-item active">
-        <a href="/cap4/ap4/">
-        A.P. No 4 
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-      
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/cap5/" title="Gobierno" class="dd-item
-        
-        
-        
-        ">
-      <a href="/cap5/">
-          <b>5. </b>Gobierno
-          
-      </a>
-      
-      
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/cap6/" title="Mercado Financiero" class="dd-item
-        
-        
-        
-        ">
-      <a href="/cap6/">
-          <b>6. </b>Mercado Financiero
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/cap6/ap6/" title="Semana 6" class="dd-item ">
-        <a href="/cap6/ap6/">
-        A.P. No 6 
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-      
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/cap7/" title="Modelo IS-LM (Parte I)" class="dd-item
-        
-        
-        
-        ">
-      <a href="/cap7/">
-          <b>7. </b>Modelo IS-LM (Parte I)
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/cap7/ap7/" title="Semana 7" class="dd-item ">
-        <a href="/cap7/ap7/">
-        A.P. No 7 
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-      
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/cap8/" title="Modelo IS-LM (Parte II)" class="dd-item
-        
-        
-        
-        ">
-      <a href="/cap8/">
-          <b>8. </b>Modelo IS-LM (Parte II)
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/cap8/ap8/" title="Semana 8" class="dd-item ">
-        <a href="/cap8/ap8/">
-        A.P. No 8 
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-      
-    </li>
-  
- 
-
-          
-        
-    </ul>
-
-    
-    
-      <section id="shortcuts">
-        <h3>Más</h3>
-        <ul>
-          
-              <li>
-                  <a class="padding" href="https://www.luischanci.com/"><i class='fas fa-portrait'></i> Autor: Luis Chancí  </a>
-              </li>
-          
-              <li>
-                  <a class="padding" href="https://twitter.com/davidchanci"><i class='fab fa-twitter'></i> @davidchanci  </a>
-              </li>
-          
-        </ul>
-      </section>
-    
-
-    
-    <section id="footer">
-      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
-
-    </section>
-  </div>
-</nav>
-
-
-
-
-        <section id="body">
-        <div id="overlay"></div>
-        <div class="padding highlightable">
-              
-              <div>
-                <div id="top-bar">
-                
-                
-                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <span id="sidebar-toggle-span">
-                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-                          <i class="fas fa-bars"></i>
-                        </a>
-                    </span>
-                  
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
-                  <span class="links">
-                 
-                 
-                    
-          
-          
-            
-            
-          
-          
-            
-            
-          
-          
-            <a href='/'>Inicio</a> > <a href='/cap4/'>Inversión</a> > Semana 4
-          
-        
-          
-        
-          
-        
-                 
-                  </span>
-                </div>
-                
-                    <div class="progress">
-    <div class="wrapper">
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cap4/ap4/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable" dir="ltr">
+        <div>
+          <div class="navigation">
+            <a class="nav nav-next" href="/cap5/index.html" title="Gobierno (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+            <a class="nav nav-prev" href="/cap4/index.html" title="Inversión (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Imprimir todo el capítulo (CTRL+ALT+p)' href="/cap4/ap4/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menú (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Tabla de contenido (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <span class="links">
+              Inversión
+            </span>
+          </div>
+          <div class="default-animation progress">
+            <div class="toc-wrapper" dir="ltr">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#actividad-de-aprendizaje-no-4">Actividad de Aprendizaje No 4</a>
+    <li><a href="#actividad-de-aprendizaje-no-4-">Actividad de Aprendizaje No 4 &hellip;</a>
       <ul>
         <li></li>
       </ul>
     </li>
   </ul>
 </nav>
-    </div>
-</div>
-
-                
-              </div>
             </div>
-            
-        <div id="head-tags">
-        
+          </div>
         </div>
-        
-        <div id="body-inner">
-          
-            <h1>
-              
-              Semana 4
-            </h1>
-          
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="inversión">Inversión</h1>
 
-        
-
-
-<h2 id="actividad-de-aprendizaje-no-4">Actividad de Aprendizaje No 4</h2>
-<p>Instrucciones: Enviar sus respuestas en formato PDF vía Aula Virtual.</p>
-<p>(Actividad No Disponible Aún)</p>
+<h2 id="actividad-de-aprendizaje-no-4-">Actividad de Aprendizaje No 4 &hellip;</h2>
+<p>Instrucciones:</p>
+<ul>
+<li>Enviar sus respuestas en formato PDF vía Aula Virtual.</li>
+</ul>
 <h4 id="1-macroeconomía-en-la-prensa">1. Macroeconomía en la prensa</h4>
-<p>Seleccionar una prensa o diario económico. Por ejemplo, <a href="https://www.df.cl/">Diario Financiero</a>, <a href="http://www.diarioestrategia.cl/">Estrategia</a>, <a href="https://www.economist.com/">The Economist</a>, etc. Buscar un artículo que haga referencia a la inversión de empresas Chinas en América Latina en los últimos años. Realizar un breve resumen, explicando en sus propias palabras lo que entendió de la noticia. Usar entre 150 y 300 palabras para el resumen (letra Arial 11). Agregar la fecha de la noticia y el enlace a la noticia.</p>
+<p>Seleccionar una prensa o diario económico. Por ejemplo, <a href="https://www.df.cl/" target="_blank">Diario Financiero</a>, <a href="http://www.diarioestrategia.cl/" target="_blank">Estrategia</a>, <a href="https://www.economist.com/" target="_blank">The Economist</a>, etc. Buscar un artículo que haga referencia a la inversión de empresas extranjeras (e.g., Chinas) en América Latina en los últimos años. Realizar un breve resumen, explicando en sus propias palabras lo que entendió de la noticia. Usar entre 150 y 300 palabras para el resumen (letra Arial 11). Agregar la fecha de la noticia y el enlace a la noticia.</p>
 <h4 id="2-los-datos-formación-de-capital">2. Los datos: Formación de Capital</h4>
-<p>Buscar la base de datos <a href="https://databank.worldbank.org/source/world-development-indicators"><em>World Development Indicators</em></a> del Banco Mundial para construir un gráfico que permita comparar la formación de capital bruto de al menos dos países en los últimos años. Recomendaciones:</p>
+<p>Buscar la base de datos <a href="https://databank.worldbank.org/source/world-development-indicators" target="_blank"><em>World Development Indicators</em></a> del Banco Mundial para construir un gráfico que permita comparar la formación de capital bruto de al menos dos países en los últimos años. Recomendaciones:</p>
 <ul>
 <li>Seleccionar al menos dos países de interés que sean comparables. Por ejemplo, que se encuentren en la misma zona geográfica (e.g., Argentina, Colombia y Chile).</li>
 <li>La serie recomendada a usar es la formación de capital fijo del sector privado como porcentaje del PIB (Gross capital formation % of GDP).</li>
@@ -644,7 +140,14 @@
 <p>Suponga que la tasa de interés sube y es ahora un 10% ¿Se llevarían a cabo los mismos proyectos de inversión?</p>
 <h4 id="4-práctica-inversión-bruta-vs-inversión-neta">4. Práctica: Inversión Bruta vs Inversión Neta</h4>
 <p>Un país presenta los siguientes datos de Inversión los últimos 3 años, expresado en millones de dólares:</p>
-<p><img src="/images/AP4_Inv.png?width=20pc&amp;classes=shadow" alt="Screenshot"></p>
+<p>
+		
+<a href="#0-images-ap4_inv-png-width-20pc-classes-shadow">
+<img src="/images/AP4_Inv.png?width=20pc&amp;classes=shadow" alt="Screenshot" class="shadow" style="height: auto; width: 20pc;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="0-images-ap4_inv-png-width-20pc-classes-shadow">
+<img src="/images/AP4_Inv.png?width=20pc&amp;classes=shadow" alt="Screenshot"loading="lazy">
+</a></p>
 <p>Suponga una tasa de depreciación del capital del 5%. Determinar para cada año:</p>
 <ul>
 <li>Inversión neta</li>
@@ -652,7 +155,14 @@
 </ul>
 <h4 id="5-práctica-pmgk">5. Práctica: PMgK</h4>
 <p>Asuma que cada tractor cuesta $100. El viñedo Chanchan S.A. está tratando de decidir cuantos tractores adquirir. La siguiente tabla muestra la cantidad de producción que logra la empresa cada año para cada nivel de stock de capital (tractores).</p>
-<p><img src="/images/AP4_PMgK.png?width=20pc&amp;classes=shadow" alt="Screenshot"></p>
+<p>
+		
+<a href="#0-images-ap4_pmgk-png-width-20pc-classes-shadow">
+<img src="/images/AP4_PMgK.png?width=20pc&amp;classes=shadow" alt="Screenshot" class="shadow" style="height: auto; width: 20pc;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="0-images-ap4_pmgk-png-width-20pc-classes-shadow">
+<img src="/images/AP4_PMgK.png?width=20pc&amp;classes=shadow" alt="Screenshot"loading="lazy">
+</a></p>
 <p>Cada botella de vino producido se vende a $1 y no hay otros costos asociados.</p>
 <ul>
 <li>Encontrar la productividad marginal del capital.</li>
@@ -661,8 +171,11 @@
 </ul>
 <h4 id="6-práctica-inversión-y-ahorro">6. Práctica: Inversión y Ahorro</h4>
 <p>Asuma que tenemos una economía sin inflación, cuyo ahorro e inversión están dados por:</p>
-<p>$$I=100-2i$$
-$$S=50+3i$$</p>
+
+<span class="math align-center">
+$$I=100-2i$$
+$$S=50+3i$$
+</span>
 <ul>
 <li>En una economía cerrada, ¿Cuál es la tasa de interés de equilibrio?</li>
 <li>En una economía cerrada, ¿Cuál es el Ahorro?</li>
@@ -670,326 +183,146 @@ $$S=50+3i$$</p>
 <li>(pregunta opcional) La tasa de interés es 4%. Determinar el ahorro, la inversión y el saldo en cuenta corriente.</li>
 </ul>
 
-
-<footer class="footline">
-	
-</footer>
-
-        
+            <footer class="footline">
+            </footer>
+          </article>
         </div>
-        
-
-      </div>
-
-    <div id="navigation">
-        
-        
-
-        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-
-        
-
-
-	 
-	 
-		
-			<a class="nav nav-prev" href="/cap4/" title="Inversión"> <i class="fa fa-chevron-left"></i></a>
-		
-		
-			<a class="nav nav-next" href="/cap5/" title="Gobierno" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
-		
-	
+      </main>
     </div>
+    <aside id="sidebar" class="default-animation" dir="ltr">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+<a id="logo" href='/'>
+	<img src="/images/macrov22.png">
+</a>
 
-    </section>
-
-    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
-      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
-    </div>
-    <script src="/js/clipboard.min.js?1624425032"></script>
-    <script src="/js/perfect-scrollbar.min.js?1624425032"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1624425032"></script>
-    <script src="/js/jquery.sticky.js?1624425032"></script>
-    <script src="/js/featherlight.min.js?1624425032"></script>
-    <script src="/js/highlight.pack.js?1624425032"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1624425032"></script>
-    <script src="/js/learn.js?1624425032"></script>
-    <script src="/js/hugo-learn.js?1624425032"></script>
-    
-        
-            <script src="/mermaid/mermaid.js?1624425032"></script>
-        
+        </div>
+        <div class="searchbox default-animation">
+          <i class="fas fa-search" title="Buscar (CTRL+ALT+f)"></i>
+          <label class="a11y-only" for="search-by">Buscar</label>
+          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="Buscar...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
         <script>
-            mermaid.initialize({ startOnLoad: true });
+          var contentLangs=['en', 'es'];
         </script>
-    
+        <script src="/js/auto-complete.js?1684778258" defer></script>
+        <script src="/js/lunr/lunr.min.js?1684778258" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1684778258" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1684778258" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1684778258" defer></script>
+        <script src="/js/lunr/lunr.es.min.js?1684778258" defer></script>
+        <script src="/js/search.js?1684778258" defer></script>
+      </div>
+      <div id="homelinks" class="default-animation">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fas fa-home"></i> Home</a></li>
+        </ul>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/cap1/index.html" class="dd-item alwaysopen"><a href="/cap1/index.html"><b>1. </b>Introducción</a><ul id="subsections-e959a982dcbe95b05399fc056360415e">
+          <li data-nav-id="/cap1/ap1/index.html" class="dd-item"><a href="/cap1/ap1/index.html">A.P. No 1  </a></li></ul></li>
+          <li data-nav-id="/cap2/index.html" class="dd-item alwaysopen"><a href="/cap2/index.html"><b>2. </b>Cuentas Nacionales</a><ul id="subsections-73770c9f343e4fdf0121d014a45ee317">
+          <li data-nav-id="/cap2/ap2/index.html" class="dd-item"><a href="/cap2/ap2/index.html">A.P. No 2 </a></li></ul></li>
+          <li data-nav-id="/cap3/index.html" class="dd-item alwaysopen"><a href="/cap3/index.html"><b>3. </b>Consumo</a><ul id="subsections-92557ce2bdf4693505fd2e1499c90306">
+          <li data-nav-id="/cap3/ap3/index.html" class="dd-item"><a href="/cap3/ap3/index.html">A.P. No 3 </a></li></ul></li>
+          <li data-nav-id="/cap4/index.html" class="dd-item parent alwaysopen"><a href="/cap4/index.html"><b>4. </b>Inversión</a><ul id="subsections-7311904fd1e325170ec1b9a3701545b5">
+          <li data-nav-id="/cap4/ap4/index.html" class="dd-item active"><a href="/cap4/ap4/index.html">A.P. No 4 </a></li></ul></li>
+          <li data-nav-id="/cap5/index.html" class="dd-item"><a href="/cap5/index.html"><b>5. </b>Gobierno</a></li>
+          <li data-nav-id="/cap6/index.html" class="dd-item alwaysopen"><a href="/cap6/index.html"><b>6. </b>Mercado Financiero</a><ul id="subsections-aa52989f86ea1d03a5c3c6ca898c3eab">
+          <li data-nav-id="/cap6/ap6/index.html" class="dd-item"><a href="/cap6/ap6/index.html">A.P. No 6 </a></li></ul></li>
+          <li data-nav-id="/cap7/index.html" class="dd-item alwaysopen"><a href="/cap7/index.html"><b>7. </b>Modelo IS-LM (Parte I)</a><ul id="subsections-c6e11cb1ae8bcefc12e06554e3d2aad5">
+          <li data-nav-id="/cap7/ap7/index.html" class="dd-item"><a href="/cap7/ap7/index.html">A.P. No 7 </a></li></ul></li>
+          <li data-nav-id="/cap8/index.html" class="dd-item alwaysopen"><a href="/cap8/index.html"><b>8. </b>Modelo IS-LM (Parte II)</a><ul id="subsections-a399e16d6af06fc2e9906f8f1ca7ea38">
+          <li data-nav-id="/cap8/ap8/index.html" class="dd-item"><a href="/cap8/ap8/index.html">A.P. No 8 </a></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title">Más</div>
+          <ul>
+            <li><a class="padding" href="https://www.luischanci.com/"><i class='fas fa-portrait'></i> Autor: Luis Chancí  </a></li>
+            <li><a class="padding" href="https://twitter.com/davidchanci"><i class='fab fa-twitter'></i> @davidchanci  </a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-language">Idioma</label>
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-variant">Tema</label>
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="green" value="green" selected>Green</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><button class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Borrar Historial</button></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1684778258" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1684778258" defer></script>
     <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1684778258" defer></script>
+    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
+    </script>
+    <script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js" defer></script>
+    <script>
+      window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
+    </script>
+    <script src="/js/theme.js?1684778258" defer></script><script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -1003,4 +336,3 @@ $$S=50+3i$$</p>
 
   </body>
 </html>
-
