@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PIB y Precios on Fundamentos de Macroeconomía</title>
+    <link>http://www.luischanci.com/2_scn/3_pre/index.html</link>
+    <description>Recent content in PIB y Precios on Fundamentos de Macroeconomía</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.luischanci.com/2_scn/3_pre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PIB, Precios e inflación</title>
+      <link>http://www.luischanci.com/2_scn/3_pre/ap_pre/index.html</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.luischanci.com/2_scn/3_pre/ap_pre/index.html</guid>
+      <description>Actividad de Aprendizaje 1. Producto Interno Bruto Disponemos de la siguiente información (en billones de dólares):
+Compras del Gobierno: $120 Depreciación: $40 Consumo: $400 Inversión: $60 Exportaciones: $100 Importaciones: $120 Ingreso recibido del resto del mundo: $10 Ingreso pagado al resto del mundo: $8. Se pide realizar las siguientes actividades:
+Determinar el valor del PIB. Calcular el valor de las exportaciones netas (balanza comercial) e indicar si existe un déficit o superávit comercial.</description>
+    </item>
+  </channel>
+</rss>

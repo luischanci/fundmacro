@@ -1,78 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Inicio on Fundamentos de Macroeconomía</title>
+    <title>Fundamentos de Macroeconomía</title>
     <link>http://www.luischanci.com/index.html</link>
-    <description>Recent content in Inicio on Fundamentos de Macroeconomía</description>
+    <description>Recent content on Fundamentos de Macroeconomía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Feb 2023 22:40:36 -0300</lastBuildDate><atom:link href="http://www.luischanci.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.luischanci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducción</title>
-      <link>http://www.luischanci.com/cap1/index.html</link>
-      <pubDate>Thu, 16 Feb 2023 22:40:36 -0300</pubDate>
-      <guid>http://www.luischanci.com/cap1/index.html</guid>
-      <description>Introducción ¿Qué temas se discuten en macroeconomía? 1. Actividades a realizar y objetivos de aprendizaje En la semana 1 realizaremos una introducción general al curso. El punto de partida serán algunas variables económicas que se abordan en la vida cotidiana, las cuales afectan el bienestar de todos, y que muchas veces no comprendemos.
+      <link>http://www.luischanci.com/1_intro/index.html</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.luischanci.com/1_intro/index.html</guid>
+      <description>¿Qué temas se discuten en macroeconomía? 1. Actividades a realizar y objetivos de aprendizaje Introduciremos el curso con una mirada a las variables económicas cotidianas que impactan nuestro bienestar, buscando una comprensión más profunda de estas.
 Objetivos de aprendizaje:
-Explicar qué estudia la Macroeconomía. Definir y diferenciar entre empleado, desempleado y no ser parte de la fuerza de trabajo.</description>
+Explicar el objeto de estudio de la Macroeconomía. 2. Diapositivas Se incluyen diapositivas para el curso. Avanza haciendo clic en ellas y utiliza las flechas del teclado para navegar.
+Nota: El material puede tardar unos segundos en cargar, dependiendo de la configuración del firewall.</description>
     </item>
     <item>
-      <title>Cuentas Nacionales</title>
-      <link>http://www.luischanci.com/cap2/index.html</link>
-      <pubDate>Tue, 16 Feb 2021 22:40:36 -0300</pubDate>
-      <guid>http://www.luischanci.com/cap2/index.html</guid>
-      <description>Sistema de Cuentas Nacionales ¿Qué es el Producto Interno Bruto (PIB)? 1. Actividades a realizar y objetivos de aprendizaje En la semana 2 realizaremos una introducción al Sistema de Cuentas Nacionales. El enfoque estará en el Producto Interno Bruto (PIB) e Índices de Precios (i.e., Deflactor Implícito del PIB, IPC, etc.).
+      <title>Mediciones Macroeconómicas</title>
+      <link>http://www.luischanci.com/2_scn/index.html</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.luischanci.com/2_scn/index.html</guid>
+      <description>Algunas variables centrales en macroeconomía Actividades a realizar y objetivos de aprendizaje En esta sección revisaremos las mediciones macroeconómicas, estudiando variables relevantes empleadas para describir el estado de la economía. Comenzaremos con una variable de gran relevancia social: el desempleo. Luego, nos preguntaremos: ¿Qué es el Producto Interno Bruto (PIB)? Finalmente, finalizaremos con una revisión de precios, inflación y números índice.
 Objetivos de aprendizaje:
-Diferenciar y calcular PIB real y nominal. Diferenciar y calcular Deflactor Implícito del PIB y Índice de Precios al Consumidor.</description>
+Definir y diferenciar entre empleado, desempleado y aquellos que no son parte de la fuerza de trabajo.</description>
     </item>
     <item>
-      <title>Consumo</title>
-      <link>http://www.luischanci.com/cap3/index.html</link>
-      <pubDate>Tue, 16 Feb 2021 22:40:36 -0300</pubDate>
-      <guid>http://www.luischanci.com/cap3/index.html</guid>
-      <description>Consumo Demanda de bienes y servicios por parte de los hogares 1. Actividades a realizar y objetivos de aprendizaje En la semana 3 realizaremos una introducción a los ciclos económicos con la idea de comenzar a estudiar el primer componente de la demanda: consumo. El enfoque estará en algunos modelos de consumo, como el de Keynes, el intertemporal de Fisher, entre otros. El objetivo general es entender que las decisiones sobre cuanto consumir se pueden ver afectadas por cambios en la tasa de interés, el ingreso presente o las expectativas sobre el ingreso futuro.</description>
+      <title>Componentes Demanda A.</title>
+      <link>http://www.luischanci.com/3_dem/index.html</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.luischanci.com/3_dem/index.html</guid>
+      <description>Componentes de la Demanda Agregada Descripción y objetivos de aprendizaje Como revisamos en la sección de mediciones macroeconómicas, una forma de medir la producción es mediante el gasto realizado por los agentes económicos. La demanda o absorción agregada (A) es la suma del consumo (C), inversión (I), gasto público (G) y la balanza comercial (NX). En equilibrio, el producto es igual a la demanda:
+$$Y=C+I+G+NX$$En esta sección, revisaremos en detalle cada componente de la demanda agregada.</description>
     </item>
     <item>
-      <title>Inversión</title>
-      <link>http://www.luischanci.com/cap4/index.html</link>
-      <pubDate>Tue, 16 Feb 2021 22:40:36 -0300</pubDate>
-      <guid>http://www.luischanci.com/cap4/index.html</guid>
-      <description>Inversión Demanda por bienes y servicios por parte de las empresas 1. Actividades a realizar y objetivos de aprendizaje Pasamos a estudiar la segunda componente de la demanda: inversión. El enfoque estará en la relación entre inversión y tasa de interés.
-Objetivos de aprendizaje:
-Describir la relación entre tasa de interés e inversión usando el VPN y la productividad marginal del capital. Explicar la relación entre inversión y ahorro. 2. Diapositivas Nota: Para avanzar hacer click sobre la diapositiva y luego usar las flechas del teclado.</description>
-    </item>
-    <item>
-      <title>Gobierno</title>
-      <link>http://www.luischanci.com/cap5/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.luischanci.com/cap5/index.html</guid>
-      <description>Gobierno Demanda por bienes y servicios por parte del gobierno 1. Actividades a realizar y objetivos de aprendizaje Pasamos a estudiar la tercera componente de la demanda: gasto del gobierno. El enfoque estará en hacer una descripción de tipo contable y no tanto en usar un modelo. Discutiremos temas de debate en América Latina.
-Objetivos de aprendizaje:
-Definir el déficit fiscal. Explicar la teoría de la equivalencia ricardiana. 2. Diapositivas Nota: Para avanzar hacer click sobre la diapositiva y luego usar las flechas del teclado.</description>
-    </item>
-    <item>
-      <title>Mercado Financiero</title>
-      <link>http://www.luischanci.com/cap6/index.html</link>
-      <pubDate>Tue, 16 Feb 2021 22:40:36 -0300</pubDate>
-      <guid>http://www.luischanci.com/cap6/index.html</guid>
-      <description>Dinero Equilibrio en el mercado de dinero 1. Actividades a realizar y objetivos de aprendizaje Objetivos de aprendizaje:
+      <title>Dinero</title>
+      <link>http://www.luischanci.com/4_din/index.html</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.luischanci.com/4_din/index.html</guid>
+      <description>Equilibrio en el mercado de dinero 1. Actividades a realizar y objetivos de aprendizaje Objetivos de aprendizaje:
 Explicar las funciones del dinero. Contrastar dinero mercancía y dinero fiduciario. Clasificar dinero como oferta de M1 o M2. Explicar cómo el banco central impacta la política monetaria. Explicar cómo las herramientas de política monetaria afectan el mercado del dinero. Explicar cómo las fuerzas de mercado determinan la tasa de interés en el mercado financiero.</description>
     </item>
     <item>
-      <title>Modelo IS-LM (Parte I)</title>
-      <link>http://www.luischanci.com/cap7/index.html</link>
-      <pubDate>Tue, 16 Feb 2021 22:40:36 -0300</pubDate>
-      <guid>http://www.luischanci.com/cap7/index.html</guid>
-      <description>Modelo IS-LM (Parte I) Investment-Savings (IS) ; Liquidity-Money (LM) 1. Actividades a realizar y objetivos de aprendizaje Objetivos de aprendizaje:
-Describir los componentes del gasto agregado y su importancia en el modelo de renta y gasto. Explicar la relación entre tasa de interés y gasto agregado. Explicar la relación entre el gasto de gobierno, oferta monetaria, tasa de interés y renta usando el modelo IS-LM. 2. Diapositivas Nota: Para avanzar hacer click sobre la diapositiva y luego usar las flechas del teclado.</description>
-    </item>
-    <item>
-      <title>Modelo IS-LM (Parte II)</title>
-      <link>http://www.luischanci.com/cap8/index.html</link>
-      <pubDate>Tue, 16 Feb 2021 22:40:36 -0300</pubDate>
-      <guid>http://www.luischanci.com/cap8/index.html</guid>
-      <description>Modelo IS-LM (Parte II) Las Políticas Macroeconómicas 1. Actividades a realizar y objetivos de aprendizaje Objetivos de aprendizaje:
-Explicar cómo la política fiscal expansiva puede incrementar la demanda agregada y promover la actividad económica. Explicar cómo la política fiscal contractiva puede reducir la demanda agregada y desalentar la actividad económica. Explicar el efecto crowding out o desplazamiento del gasto público sobre la inversión. Explicar cómo la política monetaria expansiva puede incrementar la demanda agregada y promover la actividad económica.</description>
+      <title>Ciclo E. y Políticas Macro.</title>
+      <link>http://www.luischanci.com/5_pol/index.html</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.luischanci.com/5_pol/index.html</guid>
+      <description>Ciclo Económico y Políticas Macroeconómicas (Política Fiscal y Política Monetaria) Descripción y objetivos de aprendizaje En esta sección revisaremos modelos tradicionales que permiten obtener una idea sobre el rol potencial de las políticas macroeconómicas de estabilización durante el ciclo económico en el corto plazo. El foco central estará en el modelo canónico IS-LM: Investment-Savings (IS) - Liquidity-Money (LM).
+Objetivos de aprendizaje:
+Describir los componentes del gasto agregado y su importancia en el modelo de renta y gasto.</description>
     </item>
   </channel>
 </rss>

@@ -1,19 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Modelo IS-LM (Parte II) on Fundamentos de Macroeconomía</title>
-    <link>http://www.luischanci.com/cap8/index.html</link>
-    <description>Recent content in Modelo IS-LM (Parte II) on Fundamentos de Macroeconomía</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 16 Feb 2021 22:40:36 -0300</lastBuildDate><atom:link href="http://www.luischanci.com/cap8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Modelo IS-LM (Parte II)</title>
-      <link>http://www.luischanci.com/cap8/ap8/index.html</link>
-      <pubDate>Tue, 16 Feb 2021 22:40:36 -0300</pubDate>
-      <guid>http://www.luischanci.com/cap8/ap8/index.html</guid>
-      <description>Actividad de Aprendizaje No 8 Instrucciones: Enviar sus respuestas en formato PDF vía Aula Virtual.
-1. Práctica: IS-LM y la política fiscal. Sea una economía cerrada, con la siguiente información: \begin{align*}C &amp; = 120+0,6·(Y-\bar{T})\\I &amp; = 0,2·Y-5·r\\\bar{G} &amp; = 150\\\bar{T} &amp; = 100\\(\bar{M}/P)^s &amp; = 500\\M^d &amp; = Y-50·i\\P &amp; =1\\π^e &amp;= 0\end{align*}Encontrar la tasa de interés (i) y la renta (Y) de equilibrio.</description>
-    </item>
-  </channel>
-</rss>

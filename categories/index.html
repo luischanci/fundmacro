@@ -1,201 +1,225 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="en-us" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.110.0">
-    <meta name="generator" content="Relearn 5.10.2+tip">
+    <meta name="generator" content="Hugo 0.123.8">
+    <meta name="generator" content="Relearn 5.25.0+tip">
     <meta name="description" content="Curso introductorio de macroeconomía">
-    <meta name="author" content="Luis Chancí">
-    <title>Categories - Fundamentos de Macroeconomía</title>
-    <link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="Categories - Fundamentos de Macroeconomía">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://www.luischanci.com/images/macrov22.png">
+    <meta name="twitter:title" content="Categories :: Fundamentos de Macroeconomía">
+    <meta name="twitter:description" content="Curso introductorio de macroeconomía">
+    <meta property="og:title" content="Categories :: Fundamentos de Macroeconomía">
+    <meta property="og:description" content="Curso introductorio de macroeconomía">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.luischanci.com/categories/index.html">
+    <meta property="og:image" content="http://www.luischanci.com/images/macrov22.png">
+    <meta property="og:site_name" content="Fundamentos de Macroeconomía">
+    <title>Categories :: Fundamentos de Macroeconomía</title>
+    <link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="Categories :: Fundamentos de Macroeconomía">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1685367024" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1685367024" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1685367024" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1685367024" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1685367024" rel="stylesheet">
-    <link href="/css/nucleus.css?1685367024" rel="stylesheet">
-    <link href="/css/fonts.css?1685367024" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1685367024" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1685367024" rel="stylesheet">
-    <link href="/css/theme-green.css?1685367024" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1685367024" rel="stylesheet">
-    <link href="/css/variant.css?1685367024" rel="stylesheet">
-    <link href="/css/print.css?1685367024" rel="stylesheet" media="print">
-    <script src="/js/url.js?1685367024"></script>
-    <script src="/js/variant.js?1685367024"></script>
+    <link href="/css/fontawesome-all.min.css?1710959570" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1710959570" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1710959570" rel="stylesheet">
+    <link href="/css/auto-complete.css?1710959570" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1710959570" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1710959570" rel="stylesheet">
+    <link href="/css/fonts.css?1710959570" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1710959570" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1710959570" rel="stylesheet">
+    <link href="/css/theme-green.css?1710959570" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-learn.css?1710959570" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1710959570" rel="stylesheet">
+    <link href="/css/print.css?1710959570" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1710959570" rel="stylesheet">
+    <script src="/js/url.js?1710959570"></script>
+    <script src="/js/variant.js?1710959570"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
       var root_url="/";
       var baseUri=root_url.replace(/\/$/, '');
-      // translations
-      window.T_Copy_to_clipboard = 'Copiar en el portapapeles';
-      window.T_Copied_to_clipboard = '¡Copiado al portapapeles!';
-      window.T_Copy_link_to_clipboard = 'Copiar enlace al portapapeles';
-      window.T_Link_copied_to_clipboard = '¡Enlace copiado al portapapeles!';
-      window.T_No_results_found = 'No se han encontrado resultados para \u0022{0}\u0022';
-      window.T_N_results_found = '{1} resultados encontrados para \u0022{0}\u0022';
-      // some further base stuff
-      var baseUriFull='http:\/\/www.luischanci.com/';
+      window.relearn = window.relearn || {};
+      window.relearn.baseUriFull='http:\/\/www.luischanci.com/';
+      // variant stuff
+      window.relearn.themeVariantModifier='';
       window.variants && variants.init( [ 'green' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
-    <script src="/js/jquery.min.js?1685367024" defer></script>
-
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PK9F28LTP"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-1PK9F28LTP', { 'anonymize_ip': false });
-}
-</script>
-
-    
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-1PK9F28LTP', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/categories/index.html">
-    <div id="body" class="default-animation">
-      <div id="sidebar-overlay"></div>
-      <div id="toc-overlay"></div>
-      <nav id="topbar" class="highlightable" dir="ltr">
-        <div>
-          <div class="navigation">
-            <span class="nav nav-next"><i class="fa fa-chevron-right fa-fw"></i></span>
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="navigation">
-            <a class="nav nav-prev" href="/index.html" title="Inicio (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
-          </div>
-          <div id="breadcrumbs">
-            <span id="sidebar-toggle-span">
-              <a href="#" id="sidebar-toggle" title='Menú (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
-            </span>
-            <span class="links">
-              Categories
-            </span>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Categories</span><meta itemprop="position" content="1"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/index.html" title="(🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-right"></i></span>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
-      <main id="body-inner" class="highlightable default" tabindex="-1">
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
         <div class="flex-block-wrapper">
-          <div id="head-tags">
-          </div>
           <article>
+            <header class="headline">
+            </header>
 <h1 id="categories">Categories</h1>
-<ul>
-</ul>
 
             <footer class="footline">
             </footer>
           </article>        </div>
       </main>
     </div>
-    <aside id="sidebar" class="default-animation" dir="ltr">
-      <div id="header-wrapper" class="default-animation">
-        <div id="header" class="default-animation">
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
 <a id="logo" href='/'>
 	<img src="/images/macrov22.png">
 </a>
 
         </div>
-        <div class="searchbox default-animation">
-          <i class="fas fa-search" title="Buscar (CTRL+ALT+f)"></i>
-          <label class="a11y-only" for="search-by">Buscar</label>
-          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="Buscar...">
-          <span data-search-clear=""><i class="fas fa-times"></i></span>
-        </div>
+        <form action="/search.html" method="get"><div class="searchbox default-animation">
+          <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+          <label class="a11y-only" for="R-search-by">Search</label>
+          <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+          <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+        </div></form>
         <script>
-          var contentLangs=['en', 'es'];
+          var contentLangs=['es', 'en'];
         </script>
-        <script src="/js/auto-complete.js?1685367024" defer></script>
-        <script src="/js/lunr/lunr.min.js?1685367024" defer></script>
-        <script src="/js/lunr/lunr.stemmer.support.min.js?1685367024" defer></script>
-        <script src="/js/lunr/lunr.multi.min.js?1685367024" defer></script>
-        <script src="/js/lunr/lunr.en.min.js?1685367024" defer></script>
-        <script src="/js/lunr/lunr.es.min.js?1685367024" defer></script>
-        <script src="/js/search.js?1685367024" defer></script>
+        <script src="/js/auto-complete.js?1710959570" defer></script>
+        <script src="/js/lunr/lunr.min.js?1710959570" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1710959570" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1710959570" defer></script>
+        <script src="/js/lunr/lunr.es.min.js?1710959570" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1710959570" defer></script>
+        <script src="/js/search.js?1710959570" defer></script>
       </div>
-      <div id="homelinks" class="default-animation">
+      <div id="R-homelinks" class="default-animation homelinks">
         <ul>
           <li><a class="padding" href="/index.html"><i class="fas fa-home"></i> Home</a></li>
         </ul>
+        <hr class="padding">
       </div>
-      <div id="content-wrapper" class="highlightable">
-        <ul class="topics">
-          <li data-nav-id="/cap1/index.html" class="dd-item alwaysopen"><a href="/cap1/index.html"><b>1. </b>Introducción</a><ul id="subsections-e959a982dcbe95b05399fc056360415e">
-          <li data-nav-id="/cap1/ap1/index.html" class="dd-item"><a href="/cap1/ap1/index.html">A.P. No 1  </a></li></ul></li>
-          <li data-nav-id="/cap2/index.html" class="dd-item alwaysopen"><a href="/cap2/index.html"><b>2. </b>Cuentas Nacionales</a><ul id="subsections-73770c9f343e4fdf0121d014a45ee317">
-          <li data-nav-id="/cap2/ap2/index.html" class="dd-item"><a href="/cap2/ap2/index.html">A.P. No 2 </a></li></ul></li>
-          <li data-nav-id="/cap3/index.html" class="dd-item alwaysopen"><a href="/cap3/index.html"><b>3. </b>Consumo</a><ul id="subsections-92557ce2bdf4693505fd2e1499c90306">
-          <li data-nav-id="/cap3/ap3/index.html" class="dd-item"><a href="/cap3/ap3/index.html">A.P. No 3 </a></li></ul></li>
-          <li data-nav-id="/cap4/index.html" class="dd-item alwaysopen"><a href="/cap4/index.html"><b>4. </b>Inversión</a><ul id="subsections-7311904fd1e325170ec1b9a3701545b5">
-          <li data-nav-id="/cap4/ap4/index.html" class="dd-item"><a href="/cap4/ap4/index.html">A.P. No 4 </a></li></ul></li>
-          <li data-nav-id="/cap5/index.html" class="dd-item"><a href="/cap5/index.html"><b>5. </b>Gobierno</a></li>
-          <li data-nav-id="/cap6/index.html" class="dd-item alwaysopen"><a href="/cap6/index.html"><b>6. </b>Mercado Financiero</a><ul id="subsections-aa52989f86ea1d03a5c3c6ca898c3eab">
-          <li data-nav-id="/cap6/ap6/index.html" class="dd-item"><a href="/cap6/ap6/index.html">A.P. No 6 </a></li></ul></li>
-          <li data-nav-id="/cap7/index.html" class="dd-item alwaysopen"><a href="/cap7/index.html"><b>7. </b>Modelo IS-LM (Parte I)</a><ul id="subsections-c6e11cb1ae8bcefc12e06554e3d2aad5">
-          <li data-nav-id="/cap7/ap7/index.html" class="dd-item"><a href="/cap7/ap7/index.html">A.P. No 7 </a></li></ul></li>
-          <li data-nav-id="/cap8/index.html" class="dd-item alwaysopen"><a href="/cap8/index.html"><b>8. </b>Modelo IS-LM (Parte II)</a><ul id="subsections-a399e16d6af06fc2e9906f8f1ca7ea38">
-          <li data-nav-id="/cap8/ap8/index.html" class="dd-item"><a href="/cap8/ap8/index.html">A.P. No 8 </a></li></ul></li>
-        </ul>
-        <div id="shortcuts">
-          <div class="nav-title">Más</div>
-          <ul>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/1_intro/index.html" class=""><a class="padding" href="/1_intro/index.html">Introducción</a></li>
+          <li data-nav-id="/2_scn/index.html" class=""><input type="checkbox" id="R-section-8a06712f7d54a97d94fe7ccdd7aeb228" aria-controls="R-subsections-8a06712f7d54a97d94fe7ccdd7aeb228"><label for="R-section-8a06712f7d54a97d94fe7ccdd7aeb228"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Mediciones Macroeconómicas</span></label><a class="padding" href="/2_scn/index.html">1. Mediciones Macroeconómicas</a><ul id="R-subsections-8a06712f7d54a97d94fe7ccdd7aeb228" class="morespace collapsible-menu">
+          <li data-nav-id="/2_scn/1_des/index.html" class=""><input type="checkbox" id="R-section-1573d6fca4cfef090619e5e6a676b7f4" aria-controls="R-subsections-1573d6fca4cfef090619e5e6a676b7f4"><label for="R-section-1573d6fca4cfef090619e5e6a676b7f4"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu i) Desempleo </span></label><a class="padding" href="/2_scn/1_des/index.html">i) Desempleo </a><ul id="R-subsections-1573d6fca4cfef090619e5e6a676b7f4" class="morespace collapsible-menu">
+          <li data-nav-id="/2_scn/1_des/ap_des/index.html" class=""><a class="padding" href="/2_scn/1_des/ap_des/index.html">A.P.: Desempleo</a></li></ul></li>
+          <li data-nav-id="/2_scn/2_pib/index.html" class=""><input type="checkbox" id="R-section-66904179c5607e056e583345bd70ddbb" aria-controls="R-subsections-66904179c5607e056e583345bd70ddbb"><label for="R-section-66904179c5607e056e583345bd70ddbb"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu ii) PIB </span></label><a class="padding" href="/2_scn/2_pib/index.html">ii) PIB </a><ul id="R-subsections-66904179c5607e056e583345bd70ddbb" class="morespace collapsible-menu">
+          <li data-nav-id="/2_scn/2_pib/ap_pib/index.html" class=""><a class="padding" href="/2_scn/2_pib/ap_pib/index.html">A.P.: SCN </a></li></ul></li>
+          <li data-nav-id="/2_scn/3_pre/index.html" class=""><input type="checkbox" id="R-section-843e5972317d7ad84c2f4bbc693e285c" aria-controls="R-subsections-843e5972317d7ad84c2f4bbc693e285c"><label for="R-section-843e5972317d7ad84c2f4bbc693e285c"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu iii) PIB, Precios e Inflación</span></label><a class="padding" href="/2_scn/3_pre/index.html">iii) PIB, Precios e Inflación</a><ul id="R-subsections-843e5972317d7ad84c2f4bbc693e285c" class="morespace collapsible-menu">
+          <li data-nav-id="/2_scn/3_pre/ap_pre/index.html" class=""><a class="padding" href="/2_scn/3_pre/ap_pre/index.html">A.P.: Precios</a></li></ul></li></ul></li>
+          <li data-nav-id="/3_dem/index.html" class=""><input type="checkbox" id="R-section-9be322fba5988acb4a472a3555c4cba3" aria-controls="R-subsections-9be322fba5988acb4a472a3555c4cba3"><label for="R-section-9be322fba5988acb4a472a3555c4cba3"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Componentes Demanda A.</span></label><a class="padding" href="/3_dem/index.html">2. Componentes Demanda A.</a><ul id="R-subsections-9be322fba5988acb4a472a3555c4cba3" class="morespace collapsible-menu">
+          <li data-nav-id="/3_dem/1_con/index.html" class=""><input type="checkbox" id="R-section-b5b236ca451740ce3bbe1e2d4f3e82a0" aria-controls="R-subsections-b5b236ca451740ce3bbe1e2d4f3e82a0"><label for="R-section-b5b236ca451740ce3bbe1e2d4f3e82a0"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu i) C: Consumo </span></label><a class="padding" href="/3_dem/1_con/index.html">i) C: Consumo </a><ul id="R-subsections-b5b236ca451740ce3bbe1e2d4f3e82a0" class="morespace collapsible-menu">
+          <li data-nav-id="/3_dem/1_con/ap_con/index.html" class=""><a class="padding" href="/3_dem/1_con/ap_con/index.html">A.P.: Consumo</a></li></ul></li>
+          <li data-nav-id="/3_dem/2_inv/index.html" class=""><input type="checkbox" id="R-section-88854e11ec8e397d186c25c845df77d9" aria-controls="R-subsections-88854e11ec8e397d186c25c845df77d9"><label for="R-section-88854e11ec8e397d186c25c845df77d9"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu ii) I: Inversión </span></label><a class="padding" href="/3_dem/2_inv/index.html">ii) I: Inversión </a><ul id="R-subsections-88854e11ec8e397d186c25c845df77d9" class="morespace collapsible-menu">
+          <li data-nav-id="/3_dem/2_inv/ap_inv/index.html" class=""><a class="padding" href="/3_dem/2_inv/ap_inv/index.html">A.P.: Inversión</a></li></ul></li>
+          <li data-nav-id="/3_dem/3_gas/index.html" class=""><a class="padding" href="/3_dem/3_gas/index.html">iii) G: Gasto P.</a></li></ul></li>
+          <li data-nav-id="/4_din/index.html" class=""><input type="checkbox" id="R-section-aada9c1675d8af29682e626bca4d2890" aria-controls="R-subsections-aada9c1675d8af29682e626bca4d2890"><label for="R-section-aada9c1675d8af29682e626bca4d2890"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Dinero</span></label><a class="padding" href="/4_din/index.html">3. Dinero</a><ul id="R-subsections-aada9c1675d8af29682e626bca4d2890" class="morespace collapsible-menu">
+          <li data-nav-id="/4_din/ap_din/index.html" class=""><a class="padding" href="/4_din/ap_din/index.html">A.P.: Dinero </a></li></ul></li>
+          <li data-nav-id="/5_pol/index.html" class=""><input type="checkbox" id="R-section-ecd970b0407ecb32ddebcbf21883b578" aria-controls="R-subsections-ecd970b0407ecb32ddebcbf21883b578"><label for="R-section-ecd970b0407ecb32ddebcbf21883b578"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Ciclo E. y Políticas Macro.</span></label><a class="padding" href="/5_pol/index.html">4. Ciclo E. y Políticas Macro.</a><ul id="R-subsections-ecd970b0407ecb32ddebcbf21883b578" class="morespace collapsible-menu">
+          <li data-nav-id="/5_pol/1_islm/index.html" class=""><input type="checkbox" id="R-section-6ee8700bd58bf26dc6d0e0fed273afe6" aria-controls="R-subsections-6ee8700bd58bf26dc6d0e0fed273afe6"><label for="R-section-6ee8700bd58bf26dc6d0e0fed273afe6"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu i) IS-LM (Parte I) </span></label><a class="padding" href="/5_pol/1_islm/index.html">i) IS-LM (Parte I) </a><ul id="R-subsections-6ee8700bd58bf26dc6d0e0fed273afe6" class="morespace collapsible-menu">
+          <li data-nav-id="/5_pol/1_islm/ap_islm1/index.html" class=""><a class="padding" href="/5_pol/1_islm/ap_islm1/index.html">A.P.: IS-LM (Parte I)</a></li></ul></li>
+          <li data-nav-id="/5_pol/2_islm/index.html" class=""><input type="checkbox" id="R-section-efbf930c81057db165dec1c1c5aeaaf1" aria-controls="R-subsections-efbf930c81057db165dec1c1c5aeaaf1"><label for="R-section-efbf930c81057db165dec1c1c5aeaaf1"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu ii) IS-LM (Parte II) </span></label><a class="padding" href="/5_pol/2_islm/index.html">ii) IS-LM (Parte II) </a><ul id="R-subsections-efbf930c81057db165dec1c1c5aeaaf1" class="morespace collapsible-menu">
+          <li data-nav-id="/5_pol/2_islm/ap_islm2/index.html" class=""><a class="padding" href="/5_pol/2_islm/ap_islm2/index.html">A.P.: IS-LM (Parte II)</a></li></ul></li></ul></li>
+          </ul>
+        </div>
+        <div id="R-shortcuts">
+          <div class="nav-title padding"></div>
+          <ul class="space">
             <li><a class="padding" href="https://www.luischanci.com/"><i class='fas fa-portrait'></i> Autor: Luis Chancí  </a></li>
             <li><a class="padding" href="https://twitter.com/davidchanci"><i class='fab fa-twitter'></i> @davidchanci  </a></li>
           </ul>
         </div>
-        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
-        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
-        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
-          <ul>
-            <li id="select-language-container" class="footerLangSwitch">
-              <div class="padding select-container">
-                <i class="fas fa-language fa-fw"></i>
-                <span>&nbsp;</span>
-                <div class="select-style">
-                  <label class="a11y-only" for="select-language">Idioma</label>
-                  <select id="select-language" onchange="location = baseUri + this.value;">
-                  </select>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-language fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = baseUri + this.value;">
+                      <option id="R-en" value="/categories/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
                 </div>
-                <div class="select-clear"></div>
-              </div>
-            </li>
-            <li id="select-variant-container" class="footerVariantSwitch">
-              <div class="padding select-container">
-                <i class="fas fa-paint-brush fa-fw"></i>
-                <span>&nbsp;</span>
-                <div class="select-style">
-                  <label class="a11y-only" for="select-variant">Tema</label>
-                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
-                    <option id="green" value="green" selected>Green</option>
-                  </select>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-paint-brush fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-green" value="green" selected>Green</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
                 </div>
-                <div class="select-clear"></div>
-              </div>
-              <script>window.variants && variants.markSelectedVariant();</script>
-            </li>
-            <li class="footerVisitedLinks"><button class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Borrar Historial</button></li>
-          </ul>
-        </div>
-        <div id="footer" class="footerFooter showFooter">
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fas fa-history fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
 	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1685367024" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1685367024" defer></script>
+    <script src="/js/clipboard.min.js?1710959570" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1710959570" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -225,22 +249,13 @@ if (!doNotTrack) {
       useMathJax( JSON.parse("{}") );
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="/js/jquery.svg.pan.zoom.js?1685367024" defer></script>
-    <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" defer></script>
-    <script>
-      window.themeUseMermaid = JSON.parse("{ \"theme\": \"default\" }");
-    </script>
-    <script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js" defer></script>
-    <script>
-      window.themeUseSwagger = JSON.parse("{ \"theme\": \"light\" }");
-    </script>
-    <script src="/js/theme.js?1685367024" defer></script><script>
+    <script src="/js/theme.js?1710959570" defer></script><script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-136801897-1', 'auto');
+  ga('create', 'G-1PK9F28LTP', 'auto');
   ga('send', 'pageview');
 
 </script>
