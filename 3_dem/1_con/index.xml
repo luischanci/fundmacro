@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Consumo on Fundamentos de Macroeconomía</title>
+    <title>Consumo :: Fundamentos de Macroeconomía</title>
     <link>http://www.luischanci.com/3_dem/1_con/index.html</link>
-    <description>Recent content in Consumo on Fundamentos de Macroeconomía</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Diapositivas A continuación, se incluyen las diapositivas utilizadas en clase. Para avanzar, haga clic en la diapositiva y luego use las flechas del teclado. Tenga en cuenta que el material puede tardar unos segundos en cargarse.&#xA;Ver en pantalla completa Descargar (pdf)</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.luischanci.com/3_dem/1_con/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Consumo</title>
+      <title>A.A.: Consumo</title>
       <link>http://www.luischanci.com/3_dem/1_con/ap_con/index.html</link>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://www.luischanci.com/3_dem/1_con/ap_con/index.html</guid>
-      <description>NoteLa actividad se divide en dos partes (hay dos envíos) Actividad de Aprendizaje (Envío 1) Instrucciones:
-Enviar sus respuestas en formato PDF vía Plataforma de la Universidad. 1. Los datos: Consumo Visitar la página web del Banco Central de Chile y buscar en las Bases de Datos Estadísticos las siguientes series de tiempo asociadas al consumo en Chile (En la base de datos estadísticos seguir la ruta: Cuentas Nacionales -&amp;gt; PIB gasto e ingreso - &amp;gt; Gasto del producto interno bruto -&amp;gt; Volumen a precios del año anterior encadenado):</description>
+      <description>NoteAvisaré en clase si la actividad se divide en dos partes (dos envíos). Actividad de Aprendizaje (Envío 1) Instrucciones:&#xA;Enviar sus respuestas en formato PDF vía la plataforma de la Universidad. 1. Los datos: Consumo Visite la página web del Banco Central de Chile y busque en las Bases de Datos Estadísticos las siguientes series de tiempo asociadas al consumo en Chile (ruta: Cuentas Nacionales → PIB gasto e ingreso → Gasto del producto interno bruto → Volumen a precios del año anterior encadenado):</description>
     </item>
   </channel>
 </rss>

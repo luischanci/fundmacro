@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Desempleo on Fundamentos de Macroeconomía</title>
+    <title>Desempleo :: Fundamentos de Macroeconomía</title>
     <link>http://www.luischanci.com/2_scn/1_des/index.html</link>
-    <description>Recent content in Desempleo on Fundamentos de Macroeconomía</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Diapositivas A continuación, se incluyen las diapositivas utilizadas en clase. Para avanzar, haga clic en la diapositiva y luego use las flechas del teclado. Tenga en cuenta que el material puede tardar unos segundos en cargarse.&#xA;Ver en pantalla completa Descargar (pdf)</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.luischanci.com/2_scn/1_des/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Desempleo</title>
+      <title>A.A.: Desempleo</title>
       <link>http://www.luischanci.com/2_scn/1_des/ap_des/index.html</link>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://www.luischanci.com/2_scn/1_des/ap_des/index.html</guid>
-      <description>Actividad de Aprendizaje Instrucciones: Enviar sus respuestas en formato PDF vía Aula Virtual.
-1. Macroeconomía en la prensa Seleccione un diario económico, por ejemplo, Diario Financiero, Estrategia, The Economist. Elija un artículo relacionado con la Macroeconomía. Realice un breve resumen explicando lo que comprendió, en sus propias palabras. El resumen debe tener entre 250 y 300 palabras (Arial 11). Incluya la fecha de la noticia y el enlace o referencia.</description>
+      <description>Actividad de Aprendizaje Instrucciones: Enviar sus respuestas en formato PDF (vía plataforma institucional).&#xA;1. Macroeconomía en la prensa Seleccione un diario económico, por ejemplo, Diario Financiero, Estrategia, o The Economist. Elija un artículo reciente relacionado con la Macroeconomía y realice un breve resumen en sus propias palabras explicando lo que comprendió.&#xA;El resumen debe tener entre 250 y 300 palabras (Arial 11). Incluya la fecha de la noticia y el enlace o referencia.</description>
     </item>
   </channel>
 </rss>

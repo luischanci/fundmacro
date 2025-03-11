@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introducción on Fundamentos de Macroeconomía</title>
+    <title>Introducción :: Fundamentos de Macroeconomía</title>
     <link>http://www.luischanci.com/1_intro/index.html</link>
-    <description>Recent content in Introducción on Fundamentos de Macroeconomía</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>¿Qué temas se discuten en macroeconomía? 1. Actividades a realizar y objetivos de aprendizaje Introduciremos el curso con una mirada a las variables económicas cotidianas que impactan nuestro bienestar, con el objetivo de desarrollar una comprensión más profunda de estas.&#xA;Objetivos de aprendizaje:&#xA;Explicar el objeto de estudio de la Macroeconomía. 2. Diapositivas Se incluyen diapositivas para el curso. Avanza haciendo clic en ellas y utiliza las flechas del teclado para navegar.</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://www.luischanci.com/1_intro/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -3,54 +3,45 @@
   <channel>
     <title>Fundamentos de Macroeconomía</title>
     <link>http://www.luischanci.com/index.html</link>
-    <description>Recent content on Fundamentos de Macroeconomía</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Acerca del curso Bienvenidos a Macroeconomía (Fundamentos de Macroeconomía), un curso introductorio a los conceptos más relevantes de la macroeconomía. Aquí encontrarán algunos de los apuntes que utilizo en clase para pregrado.&#xA;El material ha sido diseñado a un nivel introductorio, enfocado en un público general interesado en un primer acercamiento a la macroeconomía. Por ejemplo, estudiantes de carreras donde las ciencias económicas son un complemento relevante, como ingeniería comercial con enfoque en administración, contador-auditor o control de gestión, pueden encontrar este material de gran utilidad.</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.luischanci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducción</title>
       <link>http://www.luischanci.com/1_intro/index.html</link>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://www.luischanci.com/1_intro/index.html</guid>
-      <description>¿Qué temas se discuten en macroeconomía? 1. Actividades a realizar y objetivos de aprendizaje Introduciremos el curso con una mirada a las variables económicas cotidianas que impactan nuestro bienestar, buscando una comprensión más profunda de estas.
-Objetivos de aprendizaje:
-Explicar el objeto de estudio de la Macroeconomía. 2. Diapositivas Se incluyen diapositivas para el curso. Avanza haciendo clic en ellas y utiliza las flechas del teclado para navegar.
-Nota: El material puede tardar unos segundos en cargar, dependiendo de la configuración del firewall.</description>
+      <description>¿Qué temas se discuten en macroeconomía? 1. Actividades a realizar y objetivos de aprendizaje Introduciremos el curso con una mirada a las variables económicas cotidianas que impactan nuestro bienestar, con el objetivo de desarrollar una comprensión más profunda de estas.&#xA;Objetivos de aprendizaje:&#xA;Explicar el objeto de estudio de la Macroeconomía. 2. Diapositivas Se incluyen diapositivas para el curso. Avanza haciendo clic en ellas y utiliza las flechas del teclado para navegar.</description>
     </item>
     <item>
       <title>Mediciones Macroeconómicas</title>
       <link>http://www.luischanci.com/2_scn/index.html</link>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://www.luischanci.com/2_scn/index.html</guid>
-      <description>Algunas variables centrales en macroeconomía Actividades a realizar y objetivos de aprendizaje En esta sección revisaremos las mediciones macroeconómicas, estudiando variables relevantes empleadas para describir el estado de la economía. Comenzaremos con una variable de gran relevancia social: el desempleo. Luego, nos preguntaremos: ¿Qué es el Producto Interno Bruto (PIB)? Finalmente, finalizaremos con una revisión de precios, inflación y números índice.
-Objetivos de aprendizaje:
-Definir y diferenciar entre empleado, desempleado y aquellos que no son parte de la fuerza de trabajo.</description>
+      <description>Algunas variables centrales en macroeconomía Actividades a realizar y objetivos de aprendizaje En esta sección revisaremos las principales mediciones macroeconómicas, analizando las variables clave utilizadas para describir el estado de la economía. Comenzaremos con una variable de gran relevancia social: el desempleo. Luego, abordaremos la pregunta: ¿Qué es el Producto Interno Bruto (PIB)? Finalmente, concluiremos con una revisión de precios, inflación y números índice.&#xA;Objetivos de aprendizaje:&#xA;Definir y diferenciar entre empleado, desempleado y aquellas personas que no forman parte de la fuerza laboral. Calcular la tasa de desempleo. Diferenciar y calcular el PIB real y el PIB nominal. Diferenciar y calcular el Deflactor Implícito del PIB y el Índice de Precios al Consumidor (IPC). Definir la inflación. Contenidos y diapositivas Los contenidos y diapositivas se encuentran en las siguientes subsecciones:</description>
     </item>
     <item>
       <title>Componentes Demanda A.</title>
       <link>http://www.luischanci.com/3_dem/index.html</link>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://www.luischanci.com/3_dem/index.html</guid>
-      <description>Componentes de la Demanda Agregada Descripción y objetivos de aprendizaje Como revisamos en la sección de mediciones macroeconómicas, una forma de medir la producción es mediante el gasto realizado por los agentes económicos. La demanda o absorción agregada (A) es la suma del consumo (C), inversión (I), gasto público (G) y la balanza comercial (NX). En equilibrio, el producto es igual a la demanda:
-$$Y=C+I+G+NX$$En esta sección, revisaremos en detalle cada componente de la demanda agregada.</description>
+      <description>Componentes del PIB vía Gasto o Demanda Agregada</description>
     </item>
     <item>
       <title>Dinero</title>
       <link>http://www.luischanci.com/4_din/index.html</link>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://www.luischanci.com/4_din/index.html</guid>
-      <description>Equilibrio en el mercado de dinero 1. Actividades a realizar y objetivos de aprendizaje Objetivos de aprendizaje:
-Explicar las funciones del dinero. Contrastar dinero mercancía y dinero fiduciario. Clasificar dinero como oferta de M1 o M2. Explicar cómo el banco central impacta la política monetaria. Explicar cómo las herramientas de política monetaria afectan el mercado del dinero. Explicar cómo las fuerzas de mercado determinan la tasa de interés en el mercado financiero.</description>
+      <description>Dinero</description>
     </item>
     <item>
       <title>Ciclo E. y Políticas Macro.</title>
       <link>http://www.luischanci.com/5_pol/index.html</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://www.luischanci.com/5_pol/index.html</guid>
-      <description>Ciclo Económico y Políticas Macroeconómicas (Política Fiscal y Política Monetaria) Descripción y objetivos de aprendizaje En esta sección revisaremos modelos tradicionales que permiten obtener una idea sobre el rol potencial de las políticas macroeconómicas de estabilización durante el ciclo económico en el corto plazo. El foco central estará en el modelo canónico IS-LM: Investment-Savings (IS) - Liquidity-Money (LM).
-Objetivos de aprendizaje:
-Describir los componentes del gasto agregado y su importancia en el modelo de renta y gasto.</description>
+      <description>Ciclo Económico y Políticas Macroeconómicas</description>
     </item>
   </channel>
 </rss>
