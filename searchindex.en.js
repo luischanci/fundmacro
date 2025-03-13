@@ -169,7 +169,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "",
-    "content": "Introducción a Oferta Agregada Descripción y objetivos de aprendizaje",
+    "content": "Oferta Agregada 1. Objetivos de Aprendizaje Comprender la Oferta Agregada (OA), diferenciando entre corto y largo plazo, y sus limitaciones en el contexto del modelo IS-LM.\nExplicar la determinación de la producción a corto y largo plazo, incluyendo el rol del mercado de factores y las teorías de la OACP.\nInterconectar la Ley de Okun, la Curva de Phillips y la OACP para analizar la dinámica macroeconómica a corto plazo.\nEvaluar los efectos de las políticas económicas (monetaria y fiscal) a corto y largo plazo, considerando la OA.\n2. Diapositivas A continuación, se incluyen las diapositivas utilizadas en clase. Para avanzar, haga clic en la diapositiva y luego use las flechas del teclado. Tenga en cuenta que el material puede tardar unos segundos en cargarse.\nVer en pantalla completa Descargar (pdf)",
     "description": "Oferta Agregada",
     "tags": [],
     "title": "Oferta Agregada",
